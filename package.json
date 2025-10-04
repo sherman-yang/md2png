@@ -1,0 +1,21 @@
+{
+  "name": "md2png",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "md2png": "./md2png.mjs"
+  },
+  "dependencies": {
+    "commander": "^14.0.1",
+    "markdown-it": "^14.1.0",
+    "playwright": "^1.55.1"
+  }
+}
